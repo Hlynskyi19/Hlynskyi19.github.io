@@ -1,1 +1,4 @@
-# Hlynskyi19.github.io
+# Персональний сайт
+
+**Dmytro Hlynskyi**
+
