@@ -8,13 +8,15 @@
 function send()
 { var valid = true;
 var elems= document.forms[0].elements;
-for (var i=0; i<document.forms [0].length; i++) { 
-if( elems[i].getAttribute(' type ') == ' text ' ||
-elems [i].getAttribute (' type ') == '  password ' ||
-elems[i].getAttribute(' type ') ' email ' ) {
-if(elems [i].value==' ') {
-elems [i].style.border = '2px solid red';
+for (var i=0; i<document.forms[0].length; i++) { 
+if( elems[i].getAttribute('type') == 'text' ||
+elems [i].getAttribute ('type') == 'password' ||
+elems[i].getAttribute('type') 'email' ) {
+if(elems [i].value=='') {
+elems[i].style.border = '2px solid red';
 valid = false;
+}
+}
 }
 if(!valid) {
 alert('Заповніть всі поля !!!');
@@ -65,7 +67,7 @@ setInterval (clockPainting, 1000); }
 <font size="5" color="navy"><h2>Hовини</h2></font>
 <font size="5" >
 <ul>
-<li><a href="#">Сaйт будiiвельноi компанiї </a></li>
+<li><a href="#">Сaйт будiвельної компанiї </a></li>
 <li><a href="#">Сaйт TM "Hовашкола" </a></li>
 <li><a href="#">Редизайн сайту classno.com.ua</a></li>
 <li><a href="#">Poзpобка СMS для Metro Cash&Carry</a></li>
@@ -157,7 +159,7 @@ echo "<h2 align='center' >Ви ввели :".$_POST['name2'].",".$ POST['name1']
 </tr>
 <tr>
 <td background="images/bg-3.jpg" colspan="2" valign="middle" height="90">
- <font size="4">Сaйт pозробив "Автор"</font>
+ <font size="4">Сaйт pозробив Глинський Дмитро</font>
  </td>
 </tr>
 </table>
